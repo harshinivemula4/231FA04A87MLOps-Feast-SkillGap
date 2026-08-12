@@ -1,0 +1,12 @@
+project: curriculum_industry_skillgap
+provider: local
+
+registry:
+  path: data/registry.db
+
+offline_store:
+  type: file
+
+online_store:
+  type: sqlite
+  path: data/online_store.db
